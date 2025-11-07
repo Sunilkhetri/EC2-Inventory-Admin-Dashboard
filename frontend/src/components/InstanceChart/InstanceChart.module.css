@@ -1,0 +1,22 @@
+.chartContainer {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
+  padding: 1rem 1.5rem;
+  margin-top: 2rem;
+  text-align: center;
+  height: 400px;        /* increase height for taller bars */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.chartContainer h3 {
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+/* optional: ensure chart canvas or chart wrapper fills container */
+.chartContainer canvas {
+  height: 100% !important; 
+}
